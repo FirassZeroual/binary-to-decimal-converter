@@ -39,7 +39,7 @@ function Calculate () {
         if (led.point(Position % 5, Position / 5)) {
             Total += Multiplier
         }
-        index += Multiplier
+        Multiplier += Multiplier
     }
     basic.clearScreen()
     basic.showNumber(Total)
